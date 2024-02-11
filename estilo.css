@@ -9,10 +9,16 @@
         .logoamarillo{
           margin-left: 130px; 
         }
-      
+        .logotran{
+            display: none;
+        }
+        .color2 a{
+            background-color: #1c3692;
+            color:#ffffff;
+        }
         .color2 a:hover{
-          background-color: #000000;
-          color:#db2427;
+            background-color: #1c3692;
+          color:#e4e4e4;
         }
         html {
             scroll-behavior: smooth;
@@ -25,6 +31,7 @@
             width: 30px;
             
         }
+        
         /*linear-gradient( rgba(40, 3, 251, 0.441),rgba(37, 0, 245, 0.391)),*/
      
         .redes1 {
@@ -59,12 +66,13 @@
     
          } 
          #inicio {
-            background:linear-gradient(#ffffff, #ffffff00,#1c369200,#1c369200,#1c369200,#000000 ), url("./imagenes/portada2.jpg");
+            background: url("./imagenes/baner7.png");
             background-size: cover;
              margin-top: 15px;
             background-position:center;
-            height:100vh;
+            height:103vh;
             
+
         }   
          
         #inicio .contenido header {
@@ -142,6 +150,7 @@
         
         
         #inicio .contenido .presentacion .ayuda1 h3 {
+            display: none;
             font-size: 40px;
             margin-bottom: 105px;
             text-align: center;
@@ -184,114 +193,81 @@
             display: none;
         }
 
-   
-        #inicio1 .contenido header {
-            background-color: rgb(246, 5, 5);
+
+        
+        #icono-nav {
+            color: #fff;
+            display: none;
+        }
+
+
+
+        #inicior{
+            background: none;
+            background-size: none;
+            
+            background-position:center;
+            height:13vh;
+
+      
+        } 
+        #inicior .contenido header {
+            background-color: rgb(255, 255, 255);
             position: fixed;
             width: 100%;
-            z-index: 100;
+            z-index: 1100;
             top: 0;
         }
         
-        #inicio1 .contenido header .contenido-header {
+        #inicior .contenido header .contenido-header {
             max-width: 1100px;
             margin: auto;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            padding: 2px 2px;
+            padding: 6px 20px;
         }
         
         
-        #inicio1 .contenido header .contenido-header nav ul {
+        #inicior .contenido header .contenido-header nav ul {
             list-style: none;
             display: flex;
             align-items: center;
             margin-top: 10px;
         }
         
-        #inicio1 .contenido header .contenido-header nav ul li a {
+        #inicior .contenido header .contenido-header nav ul li a {
             text-decoration: none;
-            color: rgb(255, 255, 255);
-            margin: 0 0px;
+            color: rgb(0, 0, 0);
+            margin: 0 12px;
             font-weight: 500;
             transition: .5s;
 
         }
         
-        #inicio1 .contenido header .contenido-header nav ul li a:hover {
-            color:#ffc107;
-            font-weight: 600;
-            transform: scale(1.8, 1.8);
+        #inicior .contenido header .contenido-header nav ul li a:hover {
+            color:#1c3692;
+            font-weight: 800;
+            transform: scale(1.9, 1.9);
             
         }
         
-        #inicio1 .contenido header .contenido-header .redes a {
+        #inicior .contenido header .contenido-header .redes a {
             text-decoration: none;
-            color: rgb(255, 255, 255);
+            color:#000000;
             display: inline-block;
             margin-left: 10px;
             transition: .5s;
             font-weight: 1000;
+            
         }
         
-        #inicio1 .contenido header .contenido-header .redes a:hover {
-            color:#ffc107;
+        #inicior .contenido header .contenido-header .redes a:hover {
+            color:#1c3692;
             font-weight: 600;
-            transform: scale(1.5, 1.5);
+            transform: scale(1.6, 1.6);
         }
-        
-        #inicio1 .contenido header .contenido-header .seleccionado {
-            color:#ffc107;
-        }
-        
-        #inicio1 .contenido .presentacion {
-            height: 70vh;
-            margin: auto;
-            color:#ef0d0d;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-    
-        }
-        
-        
-        #inicio1 .contenido .presentacion h3 span {
-            
-            color: #ef0202;
-        }
-        
-        #inicio1 .contenido .presentacion .descripcion {
-            max-width: 70px;
-            margin: 25px auto;
-            font-size: 18px;
-            text-align: center;
-        }
-        
-        #inicio1 .contenido .presentacion a {
-            text-decoration: none;
-            display: inline-block;
-            margin: 25px;
-            padding: 20px 25px;
-            border: 2px solid #fff;
-            border-radius: 50px;
-            color: #fff;
-            font-weight: bold;
-            text-transform: uppercase;
-            transition: .5s;
-        }
-        
-        #inicio1 .contenido .presentacion a:hover {
-            background-color:#ffc107;
-            transform: scale(1.2, 1.2);
-            
-        }
-        
-        #icono-nav {
-            color: #fff;
-            display: none;
-        }
+          
 
         /* *********************/
         /* seccion NOSOTROS */
@@ -406,11 +382,11 @@
         
 
         .contador-obras {
-            background: linear-gradient(#1c3692, #0000008a,#0000008a, #1c3692 ), url("./imagenes/estanteria5.jpg");
+            background: linear-gradient(#1c3692, #0000008a,#ef0d0d7b,#0000008a, #1c3692), url("./imagenes/portada.jpg");
             background-size: cover;
             background-position:center;
             height:35vh;
-            
+            width: 90%;
             align-items: center;
             justify-content: center;
     
@@ -463,7 +439,7 @@
             font-weight: 500;
           }
         .contenedor-skills {
-            background: linear-gradient(#db2427cb,#0000008a,#1c369272 ), url("./imagenes/estanteria5.jpg");
+            background: linear-gradient(#000000d3,#1c3692dd,#00000000,#1c369292,#000000d3 ), url("./imagenes/autoelevador0.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             color: #fff;
@@ -668,7 +644,7 @@
         }
         
         #servicios .fila .servicio:hover {
-            box-shadow: 5px 5px 10px #1c3692, -5px -5px 10px#1c3692;
+            box-shadow: 5px 5px 10px #db2427, -5px -5px 10px#1c3692;
         }
         
         #servicios .fila .servicio .icono {
@@ -812,13 +788,15 @@
 
       
         #distrobuidores {
-            padding: 2dvb 15px;
+           margin-top: 50px;
+            padding: 40px 15px;
             text-align: center;
             background-color: #ffffff;
         }
         
         
         #distribuidores .titulo-seccion {
+            margin-top: 30px;
             font-size: 28px;
             font-weight: 800;
             text-transform: uppercase;
@@ -826,31 +804,31 @@
             text-decoration: underline;
             text-decoration-color:#c1c1c1;
             text-decoration-thickness: 5px;
-        }
-   
+        }   
+       
        
         /* *********************/
         /* seccion F O O T E R */
         /* *********************/
 
         footer {
-           background-color: #ffffff;
-            color: #000000;
+           background-color:#1c3692;
+            color: #ffffff;
             text-align: center;
             padding: 7px 0;
         }
         
-        footer a {
+        footer .redes1 {
             text-decoration: none;
-            color: #000000;
+            color: #ffffff;
             display: inline-block;
             margin: 5px;
             font-size: 26px;
         }
-        #footer a:hover {
-            color:#1c3692;
-            font-weight: 600;
-            transform: scale(1.5, 1.5);
+        #footer .redes1 :hover {
+            color:#ffffff;
+            font-weight: 400;
+            transform: scale(1.2, 1.2);
          }
 
 /* Estilos para el contenedor del texto */
@@ -1043,13 +1021,15 @@
                     display: block;
                 }
                 #inicio{
-                    background:linear-gradient(#ffffff, #ffffff00,#1c369200,#1c369200,#1c369200,#000000 ), url("./imagenes/portada2.jpg");
+                    background: url("./imagenes/2.png");
                     background-size: cover;
                      margin-top: 15px;
                     background-position:center;
-                    height:70vh;
+                    height:75vh;
                 }
-               
+                #inicio .contenido .presentacion  {
+                   
+                 }
                 #inicio .contenido .presentacion .ayuda1 h3 {
                     font-size: 20px;
                   
