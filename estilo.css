@@ -808,8 +808,25 @@
 
     }
  
-       
-    
+     /*seccion distribuidores */
+
+      
+        #distrobuidores {
+            padding: 2dvb 15px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        
+        
+        #distribuidores .titulo-seccion {
+            font-size: 28px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #1c3692;
+            text-decoration: underline;
+            text-decoration-color:#c1c1c1;
+            text-decoration-thickness: 5px;
+        }
    
        
         /* *********************/
