@@ -889,7 +889,21 @@
 
 }
 
+.portada{
+     
+    align-items: center;
+    justify-content: center;
 
+}
+.portada1{
+    padding: 40px 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+.telefonos{
+    color: #1c3692;
+}
 
         /* *********************/
         /* seccion R E S P O N S I V E */
