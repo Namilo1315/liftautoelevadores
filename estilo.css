@@ -1,9 +1,11 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Montserrat';
+            font-family: 'Poppins';
         }
         
         .logoamarillo{
@@ -509,103 +511,7 @@
                 width: 99.5%;
             }
         }
-        
-        /* *********************/
-        /* seccion servicios */
-        /* *********************/
-        
-       /* #servicios {
-            max-width: 1100px;
-            padding: 70px 25px;
-            margin: auto;
-            
-        }
-       
-        
-       /* #servicios .titulo-seccion {
-            text-align: center;
-            font-weight: 800;
-            font-size: 22px;
-            text-transform: uppercase;
-            color:#000000;
-            text-decoration: underline;
-            text-decoration-color:#ffc107;
-            text-decoration-thickness: 5px;
-            margin-bottom: 10px;
-        }
-        .servicio{
-            
-            background-color: #1c3692;
-            padding: 50px 0px;
-        }
-        #servicios  {
-            font-size: 14px;
-            line-height: 25px;
-            margin-bottom: 12px;
-        }
-        #servicios .fila {
-            display: flex;
-            justify-content: space-between;
-            margin: 30px 0;
-        }
-        
-        #servicios .fila .proyecto {
-            max-width: 450px;
-            border: 1px solid #000000;
-            margin: 0 10px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        #servicios .fila .proyecto img {
-            width: 100%;
-            height: 100%;
-            
-            filter: grayscale(1);
-            object-fit: cover;
-            transition: .5s;
-        }
-        
-        #servicios .fila .proyecto:hover img {
-            filter: grayscale(0);
-        }
-         .parrafo{
-            color:#ffc107;
-            font-size: 12px;
-            
-        }
-      
-
-        #servicios .fila .proyecto .info {
-            position: absolute;
-            left: 0px;
-            background-color: rgba(0, 0, 0, 0.8);
-            color:#ffc107;
-            width: 100%;
-            padding: 10px;
-            opacity: 0;
-            bottom: -40px;
-            transition: .5s;
-        }
-        
-        
-        #servicios .fila .proyecto:hover .info {
-            opacity: 1;
-            bottom: 0;
-        }
-
-        .icono {
-            display: inline-block;
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            background-color:#db2427;
-            padding: 20px;
-                    
-           
-        }*/
-        
-        
+    
          
         #servicios {
             padding: 70px 15px;
@@ -787,16 +693,17 @@
      /*seccion distribuidores */
 
       
-        #distrobuidores {
-           margin-top: 50px;
-            padding: 40px 15px;
+        #distribuidores {
+             
+
             text-align: center;
             background-color: #ffffff;
+            
         }
         
         
         #distribuidores .titulo-seccion {
-            margin-top: 30px;
+           
             font-size: 28px;
             font-weight: 800;
             text-transform: uppercase;
@@ -805,7 +712,10 @@
             text-decoration-color:#c1c1c1;
             text-decoration-thickness: 5px;
         }   
-       
+        .subrayado{
+            text-decoration: underline;
+            color: #1c3692;
+        }
        
         /* *********************/
         /* seccion F O O T E R */
@@ -1041,9 +951,7 @@
                     background-position:center;
                     height:75vh;
                 }
-                #inicio .contenido .presentacion  {
-                   
-                 }
+             
                 #inicio .contenido .presentacion .ayuda1 h3 {
                     font-size: 20px;
                   
@@ -1129,14 +1037,34 @@
             #servicios .fila .servicio {
                 margin: 10px auto;
             }
-            .logotran {
-                width: 60px;
-               
-                
-            }
+           
             .logonos{
                 display: none;
             }
+            #inicio .contenido .presentacion {
+                height: 75vh;
+                margin: auto;
+               
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        
+            }
+           
+            
+            
+            #inicio .contenido .presentacion .ayuda1 h3 {
+                display: flex;
+                font-size: 30px;
+                margin-bottom: 105px;
+                text-align: center;
+                color:#ffffff;
+                 font-weight: 900;
+                padding: 20px;
+                background-color:#1c3692d7;
+            }
+          
  }
          
         

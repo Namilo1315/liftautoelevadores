@@ -30,15 +30,13 @@ window.onscroll = function() { efectoHabilidades() };
 //funcion que aplica la animación de la barra de habilidades
 function efectoHabilidades() {
     let skills = document.getElementById("skills");
-     distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
+    let distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if (distancia_skills >= 300) {
         document.getElementById("html").classList.add("barra-progreso1");
         document.getElementById("js").classList.add("barra-progreso1");
         document.getElementById("rj").classList.add("barra-progreso1");
         document.getElementById("ps").classList.add("barra-progreso1");
-        document.getElementById("mutual").classList.add("barra-progreso1");
     }
-
 }
 
 function enviarWhatsApp() {
@@ -92,3 +90,6 @@ function enviarWhatsApp() {
 
   // También puedes considerar desencadenar la animación al cargar la página si la sección ya está visible
   handleScroll();
+
+  
+
