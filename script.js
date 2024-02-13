@@ -44,7 +44,7 @@ function enviarWhatsApp() {
     const mensaje = encodeURIComponent(document.getElementById("mensaje").value);
     const email = encodeURIComponent(document.getElementById("email").value);
 
-    const numeroWhatsapp = "2613441436";
+    const numeroWhatsapp = "2612631609";
     const mensajeWhatsApp = `¡Hola! Soy ${nombre}, mi email es: ${email} y mi consulta es: ${mensaje}`;
 
     const url = `https://api.whatsapp.com/send?phone=${numeroWhatsapp}&text=${mensajeWhatsApp}`;
@@ -54,42 +54,22 @@ function enviarWhatsApp() {
     document.getElementById("mensaje").value = "";
   }
 
-  const counters = document.querySelectorAll('.count');
-  let animationActivated = false;
-
-  const updateCount = () => {
-      counters.forEach(counter => {
-          const target = +counter.getAttribute('data-count');
-          const count = +counter.innerText;
-
-          const increment = Math.ceil(target / 100);
-
-          if (count < target) {
-              counter.innerText = '+' + (count + increment);
-          }
-      });
-
-      if (+counters[0].innerText < +counters[0].getAttribute('data-count')) {
-          requestAnimationFrame(updateCount);
-      }
-  };
-
-  const handleScroll = () => {
-      const countingSection = document.querySelector('.counting');
-      const sectionPosition = countingSection.getBoundingClientRect();
-
-      // Verificar si la sección está dentro de la ventana visible
-      if (sectionPosition.top <= window.innerHeight && !animationActivated) {
-          animationActivated = true;
-          updateCount();
-      }
-  };
-
-  // Escuchar eventos de desplazamiento
-  window.addEventListener('scroll', handleScroll);
-
-  // También puedes considerar desencadenar la animación al cargar la página si la sección ya está visible
-  handleScroll();
-
   
+  document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.querySelector('.carousel');
+    const images = document.querySelectorAll('.carousel img');
+    const totalImages = images.length;
+    const imagesToShow = 6;
+    let currentIndex = 0;
+
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % (totalImages - imagesToShow + 1);
+        updateCarousel();
+    }, 2000); // Cambia cada 3 segundos (ajusta según tu preferencia)
+
+    function updateCarousel() {
+        const translateValue = -currentIndex * (100 / imagesToShow);
+        carousel.style.transform = `translateX(${translateValue}%)`;
+    }
+});
 
