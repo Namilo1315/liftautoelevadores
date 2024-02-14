@@ -102,7 +102,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 6px 20px;
+            padding: 6px 10px;
         }
         
         
@@ -125,25 +125,28 @@
         #inicio .contenido header .contenido-header nav ul li a:hover {
             color:#1c3692;
             font-weight: 800;
-            transform: scale(1.9, 1.9);
+        
             
         }
         
         #inicio .contenido header .contenido-header .redes a {
             text-decoration: none;
-            color:#000000;
+            font-size: 16px;
+            color:#ffffff;
             display: inline-block;
             margin-left: 10px;
             transition: .5s;
-            font-weight: 1000;
+            font-weight: 500;
+            padding: 5px;
+            background-color: #1c3692bb;
             
             
         }
         
         #inicio .contenido header .contenido-header .redes a:hover {
-            color:#1c3692;
+            color:#ffffff;
             font-weight: 600;
-            transform: scale(1.6, 1.6);
+            transform: scale(1.1, 1.1);
         }
         
         #inicio .contenido header .contenido-header .seleccionado {
@@ -688,11 +691,9 @@
     font-weight: 700;
     }   
     #contacto .titulo-formulario {
-    
-    font-size: 20px;
-   
-    color: #000000;
-    font-weight: 800;
+    font-size: 22px;
+    color: #242424;
+    font-weight: 700;
      
      
     }
@@ -737,13 +738,13 @@
         }
         
         .carousel {
-            padding: 60px 15px;
+            padding: 70px 15px;
             display: flex;
             transition: transform 0.2s ease-in-out;
         }
         
         .carousel img {
-            width: 120px; /* Ajusta el tamaño según tus necesidades */
+            width: 100px; /* Ajusta el tamaño según tus necesidades */
             margin: 0 50px; /* Espacio entre las imágenes */
         }
         /*#fondo{
@@ -960,11 +961,10 @@
             }
             #contacto .titulo-formulario {
     
-                font-size: 16px;
-                font-weight: 200;
-                color: #202020;
-                 font-weight: 800;
-                
+                font-size: 15px;
+                font-weight: 700;
+                color: #000000;
+                 
                  
                 }
           .redes1 {
@@ -1100,6 +1100,11 @@
             .carousel img {
                 width: 80px; /* Ajusta el tamaño para pantallas más pequeñas */
                 margin: 0 15px;
+            }
+            .carousel {
+                padding: 40px 15px;
+                display: flex;
+                transition: transform 0.2s ease-in-out;
             }
             
  }
