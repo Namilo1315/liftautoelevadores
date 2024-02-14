@@ -727,6 +727,19 @@
             text-decoration-color:#c1c1c1;
             text-decoration-thickness: 5px;
         }   
+        #nosotros1 .sobremi1 {
+            margin: 70 15px;
+            
+        }
+        #nosotros1 .sobremi1 p {
+            font-size: 14px;
+            line-height: 25px;
+           margin-bottom: 80px;
+           padding-left: 100px;
+        }
+        .doslogos{
+            margin-bottom: 100px;
+        }
         .subrayado{
             text-decoration: underline;
             color: #1c3692;
@@ -1106,7 +1119,18 @@
                 display: flex;
                 transition: transform 0.2s ease-in-out;
             }
-            
+            #nosotros1 .sobremi1 p {
+                font-size: 14px;
+                line-height: 25px;
+               margin-bottom:30px;
+               padding-left: 0px;
+               text-align: center;
+            }
+            .doslogos{
+                margin-bottom: 30px;
+                text-align: center;
+                
+            }
  }
          
         
