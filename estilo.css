@@ -946,10 +946,7 @@
                
             }
             
-            .logoamarillo{
-                margin-left: 0px; 
-                width: 75px;
-            }
+            
 
             .contador-obras {
                
@@ -1142,6 +1139,14 @@
             .gracias{
                 display: inline;
                 text-align: center;
+            }
+            .footer1{
+                margin-top: 0px;
+            }
+            .logoamarillo{
+                margin-bottom: 0px;
+                margin-left: 0px; 
+                width: 75px;
             }
  }
          
