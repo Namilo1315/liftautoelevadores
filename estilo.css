@@ -1113,7 +1113,7 @@
                 background-color:#1c3692d7;
             }
             .carousel img {
-                width: 80px; /* Ajusta el tamaño para pantallas más pequeñas */
+                width: 70px; /* Ajusta el tamaño para pantallas más pequeñas */
                 margin: 0 15px;
             }
             .carousel {
@@ -1135,6 +1135,9 @@
                 0px;
                 text-align: center;
                 
+            }
+            .final{
+                display: none;
             }
             .gracias{
                 display: inline;
