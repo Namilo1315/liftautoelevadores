@@ -16,7 +16,9 @@
             border-radius: 15%;
           
         }
-        
+        .gracias{
+            display: none;
+        }
         .logoamarillo{
           margin-left: 130px; 
         }
@@ -940,7 +942,7 @@
                 display: none;
             }
             .final {
-                text-align: center;
+                display: none;
                
             }
             
@@ -1133,6 +1135,10 @@
                 0px;
                 text-align: center;
                 
+            }
+            .gracias{
+                display: inline;
+                text-align: center;
             }
  }
          
