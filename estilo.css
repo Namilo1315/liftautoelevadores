@@ -710,7 +710,6 @@
       
         #distribuidores {
              
-
             text-align: center;
             background-color: #ffffff;
             
@@ -718,7 +717,6 @@
         
         
         #distribuidores .titulo-seccion {
-           
             font-size: 28px;
             font-weight: 800;
             text-transform: uppercase;
@@ -727,8 +725,9 @@
             text-decoration-color:#c1c1c1;
             text-decoration-thickness: 5px;
         }   
+        
         #nosotros1 .sobremi1 {
-            margin: 70 15px;
+            padding: 40 15px;
             
         }
         #nosotros1 .sobremi1 p {
@@ -760,6 +759,7 @@
             width: 100px; /* Ajusta el tamaño según tus necesidades */
             margin: 0 50px; /* Espacio entre las imágenes */
         }
+    
         /*#fondo{
             
             background: url("./imagenes/fondo.png");
@@ -774,7 +774,7 @@
         /* *********************/
         /* seccion F O O T E R */
         /* *********************/
-
+        
         footer {
            background-color:#1c3692;
             color: #ffffff;
