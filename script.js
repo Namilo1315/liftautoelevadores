@@ -44,10 +44,10 @@ function enviarWhatsApp() {
     const mensaje = encodeURIComponent(document.getElementById("mensaje").value);
     const email = encodeURIComponent(document.getElementById("email").value);
 
-    const numeroWhatsapp = "2612631609";
+    const numeroWhatsapp = "2612201520";
     const mensajeWhatsApp = `¡Hola! Soy ${nombre}, mi email es: ${email} y mi consulta es: ${mensaje}`;
 
-    const url = `https://api.whatsapp.com/send?phone=${numeroWhatsapp}&text=${mensajeWhatsApp}`;
+    const url = `https://api.whatsapp.com/send?phone=${numeroWhatsapp}&text=${mensajeWhatsApp}target="_blank"`;
     window.location.href = url;
     document.getElementById("nombre").value = "";
     document.getElementById("email").value = "";
